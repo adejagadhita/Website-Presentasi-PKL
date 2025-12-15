@@ -1,0 +1,49 @@
+@import "tailwindcss";
+/* Besarkan icon panah swiper */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  color: #a855f7 !important;
+}
+
+/* Style tombol bundar */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 55px !important;
+  height: 55px !important;
+  background: rgba(168, 85, 247, 0.2) !important;
+  border-radius: 50%;
+  z-index: 9999 !important;
+}
+
+/* Hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(168, 85, 247, 0.5) !important;
+}
+
+/* Pindahkan tombol ke posisi yang benar */
+.swiper-button-prev {
+  left: -30px !important;
+}
+
+.swiper-button-next {
+  right: -30px !important;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #a855f7;
+  background: rgba(168, 85, 247, 0.2);
+  padding: 20px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: rgba(168, 85, 247, 0.4);
+}
+
