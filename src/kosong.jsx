@@ -16,7 +16,7 @@ import { Navigation } from "swiper/modules";
 export default function Kosong() {
     return (
         
-    <section className="w-full py-10 bg-black text-white">
+    <section id="project" className="w-full py-10 bg-black text-white">
       <div className="max-w-6xl mx-auto">
         
         <div className="flex flex-col mb-10">
@@ -68,11 +68,15 @@ export default function Kosong() {
                 <div className="flex flex-col">
                 <div>
                     
-                    <a className="text-[#5908b7] text-[40px] font-semibold" href="https://adejagadhita.github.io/Pokemon-Simulator/">Project 1</a>
+                    <a className="text-[#5908b7] text-[40px] font-semibold leading-none" href="https://adejagadhita.github.io/Pokemon-Simulator/">Pokemon Draft <br />
+                    Simulator </a>
                 </div>
 
                 <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br /> elit. Qui quam rerum quia tempore, neque quis <br /> in accusamus nihil magnam eaque repellendus, <br /> a est quas incidunt facere velit inventore <br /> ipsum modi.</p>
+                    <p>Pokémon Draft Simulator adalah sebuah aplikasi simulasi <br />
+                      pemilihan Pokémon secara bergiliran antar trainer <br />
+                      yang meniru sistem draft pada pertandingan kompetitif, <br />
+                      di mana setiap Pokémon hanya bisa dipilih satu kali </p>
                 </div>
                 </div>
 
@@ -87,11 +91,14 @@ export default function Kosong() {
 
                 <div className="flex flex-col">
                   <div>
-                  <a className="text-[#5908b7] text-[40px] font-semibold" href="https://adejagadhita.github.io/Landing-Page-Positivus/">Project 2</a>
+                  <a className="text-[#5908b7] text-[40px] font-semibold" href="https://adejagadhita.github.io/Landing-Page-Positivus/">Positivus</a>
                 </div>
 
                 <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br /> elit. Qui quam rerum quia tempore, neque quis <br /> in accusamus nihil magnam eaque repellendus, <br /> a est quas incidunt facere velit inventore <br /> ipsum modi.</p>
+                    <p>Positivus Landing Page adalah sebuah project latihan <br />
+                      pembuatan tampilan website menggunakan HTML <br /> dan CSS 
+                      yang berfokus pada pengaturan layout, <br /> struktur halaman,
+                      serta penataan elemen agar <br /> terlihat rapi dan responsif</p>
                 </div>
                 </div>
 
@@ -106,11 +113,14 @@ export default function Kosong() {
 
                 <div className="flex flex-col">
                 <div>
-                   <a className="text-[#5908b7] text-[40px] font-semibold" href="https://adejagadhita.github.io/Sriat-Jewellery/">Project 3</a>
+                   <a className="text-[#5908b7] text-[40px] font-semibold" href="https://adejagadhita.github.io/Sriat-Jewellery/">Sriat Jewellery</a>
                 </div>
 
                 <div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br /> elit. Qui quam rerum quia tempore, neque quis <br /> in accusamus nihil magnam eaque repellendus, <br /> a est quas incidunt facere velit inventore <br /> ipsum modi.</p>
+                    <p>Sriat Jewellery adalah sebuah landing page <br />
+yang menampilkan koleksi perhiasan seperti cincin, <br />
+gelang, dan anting menggunakan HTML, CSS, <br /> JavaScript 
+dengan tampilan yang elegan dan interaktif.</p>
                 </div>
                 </div>
 

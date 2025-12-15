@@ -12,7 +12,7 @@ export default function Tools() {
 
    
     return (
-        <section className="w-full bg-black text-white py-16"> 
+        <section id="tools" className="w-full bg-black text-white py-16"> 
             <div className="max-w-6xl mx-auto px-6">
             <div className="text-[#700AE5] font-semibold text-[50px] flex justify-center mb-10">
                 <h1>TOOLS</h1>

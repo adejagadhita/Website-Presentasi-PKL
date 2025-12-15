@@ -1,6 +1,6 @@
 export default function VisiMisi() {
     return (
-        <div className="w-full min-h-screen bg-black py-20" >
+        <div id="visiMisi" className="w-full min-h-screen bg-black py-20" >
             <div className="max-w-6xl mx-auto px-6 ">
                 
             <div>

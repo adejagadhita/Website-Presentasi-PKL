@@ -7,6 +7,11 @@
   color: #a855f7 !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Style tombol bundar */
 .swiper-button-next,
 .swiper-button-prev {

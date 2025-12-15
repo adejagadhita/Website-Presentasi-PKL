@@ -1,18 +1,25 @@
-function Navbar() {
-    return(
-        <div>
-            <div className="text-white   " >
-               <ul className="flex gap-10 justify-end h-15 items-center pr-5  bg-transparent fixed w-full top-0 backdrop-blur-sm ">
-                <li><a href="">Biodata</a></li>
-                 <li><a href="">Sejarah Perusahaan</a></li>
-                  <li><a href="">Visi & Misi</a></li>
-                  <li><a href="">Tools</a></li>
-                   <li><a href="">Project</a></li>
-                    <li><a href="">Contact</a></li>
-               </ul>
-            </div>
-        </div>
-    )
-}
+export default function Navbar() {
+  return (
+    <nav className="
+      fixed top-0 left-0 w-full z-50
+      bg-black/30 backdrop-blur-md
+    ">
+      <div className="max-w-7xl mx-auto px-8 h-15
+                      flex items-center justify-end text-white">
 
-export default Navbar;
+                <ul className="flex gap-10  h-15 items-center pr-5 ">
+                 <li>
+                    <a href="#biodata">Biodata</a></li>
+                 <li><a href="#sejarah">Sejarah Perusahaan</a></li>
+                  <li><a href="#visiMisi">Visi & Misi</a></li>
+                  <li><a href="#tools">Tools</a></li>
+                   <li><a href="#project">Project</a></li>
+                    <li><a href="#footer">Contact</a>
+                    </li>
+                    </ul>
+
+
+      </div>
+    </nav>
+  );
+}

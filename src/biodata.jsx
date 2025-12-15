@@ -2,7 +2,7 @@ import Foto from "./assets/pitc1catur.jpg";
 export default function Biodata() {
 
   return (
-    <section className="w-full bg-black text-white py-16">
+    <section id="biodata" className="w-full bg-black text-white py-16 ">
       <div className="max-w-6xl mx-auto px-6">
       
         <div className="flex flex-col justify-center md:flex-row items-center md:items-center gap-15">
