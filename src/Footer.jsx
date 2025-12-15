@@ -2,9 +2,9 @@ import { Instagram, Mail, Phone} from "lucide-react";
 
 export default function Tools() {
     return (
-        <div className="w-full bg-black text-white pt-16">
+        <div id="footer" className="w-full bg-black text-white pt-16">
             <div className="max-w-6xl mx-auto px-6 ">
-                <div className="rounded-tl-3xl rounded-tr-3xl bg-[#0d0d0d] h-40 flex justify-center  flex-col items-center pt-10 gap-2 ">
+                <div className="rounded-tl-3xl rounded-tr-3xl bg-[#0d0d0d] h-30 flex justify-center  flex-col items-center pt-10 gap-2 ">
                
                 <div className="text-[20px] font-medium font-bold">
                    <p>&copy; 2025 Ade Jagadhita</p>

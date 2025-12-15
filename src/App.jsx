@@ -13,9 +13,9 @@ import Footer from "./Footer";
 function App() {
   return(
     <div className="relative ">
-    <div className="h-screen absolute inset-0  ">
+    {/* <div className="h-screen absolute inset-0  ">
   <DarkVeil />
-</div>
+</div> */}
 
  <div className="relative   ">
     <Navbar />
