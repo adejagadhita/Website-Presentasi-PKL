@@ -4,7 +4,8 @@ import "swiper/css/pagination";
 
 import PDSimulator from "./assets/image.png";
 import LandingPage from "./assets/Screenshot 2025-11-27 160551.png";
-import Sriat from "./assets/Screenshot 2025-11-27 161423.png"
+import Sriat from "./assets/Screenshot 2025-11-27 161423.png";
+import Inventory from "./assets/ss 4.png";
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -122,9 +123,31 @@ export default function Kosong() {
 
                 <div>
                     <p>Sriat Jewellery adalah sebuah landing page <br />
-yang menampilkan koleksi perhiasan seperti cincin, <br />
-gelang, dan anting menggunakan HTML, CSS, <br /> JavaScript 
-dengan tampilan yang elegan dan interaktif.</p>
+                      yang menampilkan koleksi perhiasan seperti cincin, <br />
+                      gelang, dan anting menggunakan HTML, CSS, <br /> JavaScript 
+                      dengan tampilan yang elegan dan interaktif.</p>
+                </div>
+                </div>
+
+              </div>
+            </SwiperSlide>
+
+
+             <SwiperSlide>
+               <div className=" h-100 bg-[#0d0d0d] border border-[#6409ce]/40 rounded-2xl gap-10 flex items-center hover:border-[#6409ce] transition duration-300  ">
+                <div className="h-55  w-100   ml-10 rounded-xl flex items-center justify-center transition duration-300 hover:scale-105 bg-white/5 flex items-center justify-center shadow-[0_0_25px_rgba(112,10,229,0.35)] transition-all duration-300  hover:shadow-[0_0_50px_rgba(112,10,229,0.6)]  cursor-pointer">
+                <img className="rounded-xl w-150" src={Inventory} alt="" />
+                </div>
+
+                <div className="flex flex-col">
+                <div>
+                   <a className="text-[#5908b7] text-[40px] font-semibold" href="https://adejagadhita.github.io/Inventory-Tracker">Inventory Tracker</a>
+                </div>
+
+                <div>
+                    <p>Inventory Tracker adalah sebuah sistem yang <br />
+digunakan untuk mencatat, mengawasi, dan mengelola<br />
+inventaris barang. Project ini dibuat dengan React.js, <br /> Tailwind CSS, dan Firebase </p>
                 </div>
                 </div>
 
