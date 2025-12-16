@@ -1,4 +1,9 @@
 import DarkVeil from "./components/DarkVeil";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Biodata from "./biodata";
@@ -11,11 +16,16 @@ import "swiper/css/navigation";
 import Footer from "./Footer";
 
 function App() {
+   useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return(
     <div className="relative ">
-    {/* <div className="h-screen absolute inset-0  ">
-  <DarkVeil />
-</div> */}
+   
 
  <div className="relative   ">
     <Navbar />

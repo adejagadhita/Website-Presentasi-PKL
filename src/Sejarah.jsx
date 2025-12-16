@@ -16,19 +16,26 @@ export default function Sejarah() {
 
     return(
         <div id="sejarah" className="w-full bg-black text-white py-16">
-            <div className="max-w-6xl mx-auto px-6">
-                <div className=" font-semibold  space-y-0 mb-16 ">
+            <div 
+            className="max-w-6xl mx-auto px-6">
+                <div
+                data-aos="fade-up"
+                className=" font-semibold  space-y-0 mb-16 ">
                     <h1 className="text-white text-[50px]">SEJARAH</h1>
                     <h1 className="-mt-6 text-[50px] text-[#700AE5]">PERUSAHAAN</h1>
                 </div>
 
-                <div className="flex justify-center transition-all duration-300  cursor-pointer">
+                <div
+                data-aos="fade-up"
+                className="flex justify-center transition-all duration-300  cursor-pointer">
                     <img className="h-50 rounded-[100px] transition-all duration-300
                shadow-none
                hover:shadow-[0_0_50px_rgba(112,10,229,0.6)]" src={Logo} alt="" />
                 </div>
 
-                <div className="relative ">
+                <div 
+                data-aos="fade-up"
+                className="relative ">
                     
                     <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-[#700AE5] to-[#700AE5]"
                      style={{ backgroundImage: 'repeating-linear-gradient(to bottom, #700AE5 0px, #700AE5 10px, transparent 10px, transparent 20px)', backgroundSize: '1px 20px' }}></div>

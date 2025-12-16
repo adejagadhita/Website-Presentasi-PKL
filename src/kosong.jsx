@@ -19,7 +19,9 @@ export default function Kosong() {
     <section id="project" className="w-full py-10 bg-black text-white">
       <div className="max-w-6xl mx-auto">
         
-        <div className="flex flex-col mb-10">
+        <div 
+        data-aos="fade-right"
+        className="flex flex-col mb-10">
                 <div className="text-[65px] text-[#700AE5] font-semibold">
                 <h2 className="">PROJECTS</h2>
                 </div>
@@ -28,7 +30,9 @@ export default function Kosong() {
                 </div>
                 </div>
 
-        <div className="relative w-full max-w-4xl mx-auto ">
+        <div 
+        data-aos="fade-up"
+        className="relative w-full max-w-4xl mx-auto ">
 
           {/* Tombol Prev */}
           <button
