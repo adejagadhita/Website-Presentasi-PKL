@@ -6,7 +6,9 @@ export default function Biodata() {
       <div className="max-w-6xl mx-auto px-6">
       
         <div className="flex flex-col justify-center md:flex-row items-center md:items-center gap-15">
-          <div className="relative w-80 h-80 md:w-80 md:h-100 group">
+          <div 
+          data-aos="fade-right"
+          className="relative w-80 h-80 md:w-80 md:h-100 group">
             <div
               className="absolute inset-0 rounded-[50px] transition-shadow duration-300"
               style={{ boxShadow: '0 0 60px rgba(255,255,255,0.15), 0 30px 80px rgba(255,255,255,0.18)' }}
@@ -14,7 +16,9 @@ export default function Biodata() {
             <div className="absolute inset-0 rounded-[50px] transition-shadow duration-300 opacity-0 group-hover:opacity-100"
               style={{ boxShadow: '0 0 60px rgba(255,255,255,0.12), 0 30px 80px rgba(255,255,255,0.1)' }}
             />
-            <div className="overflow-hidden rounded-[50px] w-full h-full relative z-10">
+            <div 
+            
+            className="overflow-hidden rounded-[50px] w-full h-full relative z-10">
               <img
                 className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-105"
                 src={Foto}
@@ -24,7 +28,10 @@ export default function Biodata() {
           </div>
           
 
-          <div className="">
+          <div 
+          
+          data-aos="fade-right"
+          className="">
              <div> <h2 className="text-[50px] font-semibold ">BIODATA</h2></div>
             <div className="space-y-2 text-lg">
               <div>
